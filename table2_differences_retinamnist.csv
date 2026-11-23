@@ -1,0 +1,9 @@
+comparison (A vs B),what it tests,ECE,NLL,Brier,AURC,accuracy,A clearly better on,A clearly worse on
+single + TS  vs  single,temperature scaling on a single model,"-0.040 [-0.044, -0.019]","-0.081 [-0.105, -0.059]","-0.017 [-0.022, -0.012]","-0.000 [-0.001, +0.001]","+0.000 [+0.000, +0.000]","ECE, NLL, Brier",-
+ensemble  vs  single,ensemble of 5 vs a single model,"-0.090 [-0.098, -0.037]","-0.195 [-0.226, -0.166]","-0.065 [-0.070, -0.060]","-0.035 [-0.047, -0.022]","+0.042 [+0.019, +0.065]","ECE, NLL, Brier, AURC, accuracy",-
+ensemble + TS  vs  single + TS,"ensemble vs single model, both temperature-scaled","-0.035 [-0.053, -0.000]","-0.095 [-0.118, -0.073]","-0.044 [-0.053, -0.036]","-0.035 [-0.047, -0.022]","+0.045 [+0.022, +0.067]","ECE, NLL, Brier, AURC, accuracy",-
+ensemble + TS  vs  ensemble,temperature scaling on the ensemble,"+0.014 [-0.020, +0.036]","+0.018 [+0.008, +0.029]","+0.003 [+0.001, +0.006]","+0.000 [-0.002, +0.002]","+0.003 [-0.005, +0.012]",-,"NLL, Brier"
+MC dropout  vs  dropout (1 pass),30 MC passes vs 1 pass of the same dropout-trained models,"-0.007 [-0.016, +0.006]","-0.023 [-0.036, -0.012]","-0.002 [-0.004, -0.001]","-0.000 [-0.002, +0.002]","+0.003 [-0.003, +0.009]","NLL, Brier",-
+MC dropout  vs  single,MC dropout vs a standard single model,"-0.020 [-0.037, +0.004]","-0.034 [-0.088, +0.016]","-0.012 [-0.030, +0.006]","+0.005 [-0.012, +0.020]","-0.011 [-0.031, +0.008]",-,-
+MC dropout + TS  vs  MC dropout,temperature scaling on MC dropout,"-0.017 [-0.027, -0.005]","-0.027 [-0.039, -0.017]","-0.006 [-0.008, -0.004]","+0.000 [-0.001, +0.001]","+0.000 [+0.000, +0.000]","ECE, NLL, Brier",-
+MC dropout  vs  ensemble,MC dropout vs the ensemble,"+0.070 [+0.023, +0.085]","+0.161 [+0.109, +0.217]","+0.053 [+0.035, +0.071]","+0.040 [+0.020, +0.059]","-0.053 [-0.085, -0.022]",-,"ECE, NLL, Brier, AURC, accuracy"

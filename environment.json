@@ -1,0 +1,27 @@
+{
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "torchvision": "0.29.1+cu130",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "scikit-learn": "1.6.1",
+  "scipy": "1.16.3",
+  "opencv": "4.14.0",
+  "medmnist": "3.0.2",
+  "gpu": "Tesla T4",
+  "img_size": 64,
+  "n_seeds_standard": 5,
+  "n_seeds_mc_dropout": 5,
+  "dropout_p": 0.3,
+  "mc_passes": 30,
+  "n_bins": 15,
+  "n_boot": 1000,
+  "mc_epochs": {
+    "pneumoniamnist": 15,
+    "retinamnist": 30
+  },
+  "batch_size": 64,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "project1_folder": "/content/drive/MyDrive/ML_Project1_Ablation/full_64px"
+}
