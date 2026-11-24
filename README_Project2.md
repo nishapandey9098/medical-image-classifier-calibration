@@ -1,6 +1,6 @@
 # Knowing When Not to Predict: Calibration, Uncertainty and Selective Referral for Medical Image Classifiers
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/Project2_Calibration_Referral.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nishapandey9098/medical-image-classifier-calibration/blob/main/Project2_Calibration_Referral.ipynb)
 
 > A small, reproducible study on public low-resolution datasets. **Not validated for clinical use.**
 
